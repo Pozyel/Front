@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Front';
+  title = 'Gerenciador de Projetos AC318';
+  constructor() { }
+
+  // tslint:disable-next-line:use-lifecycle-interface
+  ngOnInit(): void {
+  }
+
 }
+
